@@ -187,7 +187,7 @@ form {
     font-size: 50px;
 }
 
-footer {
+footerlink, footer {
     color: darkblue;
     font-family: sans-serif;
     font-weight: light;
