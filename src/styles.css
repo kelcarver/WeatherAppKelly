@@ -88,7 +88,6 @@ header {
 ::before {
     box-sizing: weather-app;
 }
-}
 
 .weather-date:hover,
 .weather-time:hover,
@@ -100,7 +99,7 @@ header {
 }
 
 a:any-link {
-    color: whitesmoke;
+    color:#977517;
     font-family: monospace;
     padding: 40px;
 }
@@ -109,7 +108,7 @@ a:any-link:hover {
     transition: all 150ms ease;
     font-weight: bold;
     cursor: pointer;
-    color: darkblue;
+    color: darkgoldenrod;
 }
 
 .Today,
@@ -164,7 +163,7 @@ form {
 }
 
 footer {
-    color: darkblue;
+    color: #977517;
     font-family: sans-serif;
     font-weight: light;
     text-align: center;
