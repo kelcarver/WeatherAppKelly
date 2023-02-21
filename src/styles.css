@@ -108,7 +108,7 @@ a:any-link:hover {
     transition: all 150ms ease;
     font-weight: bold;
     cursor: pointer;
-    color: darkgoldenrod;
+    color: darkblue;
 }
 
 .Today,
