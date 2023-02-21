@@ -5,9 +5,10 @@ body {
 .card {
     margin: 30px;
     box-sizing: weather-app;
-    border-radius: 50px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-width: 5px;
-    border-color: darkbrown;
+    border-color: lightgrey;
 }
 
 .card,
@@ -19,7 +20,7 @@ body {
 header {
     color: #977517;
     font-family: sans-serif;
-    font-size: 33px;
+    font-size: 26px;
     font-weight: bold;
     padding: 300;
     margin-left: 15px;
@@ -27,57 +28,39 @@ header {
     text-align: left;
 }
 
-header:hover {
-    color: darkblue;
-    transition: all 150ms ease;
-    font-weight: bold;
-}
-
 .col {
     margin-left: 15px;
 }
 
-.Tuesday,
-.Wednesday,
-.Thursday {
+.Tues,
+.Wed,
+.Thu,
+.Fri {
     color: #977517;
     font-family: sans-serif;
     font-weight: 120px;
-    font-size: 22px;
-}
-
-.Thursday:hover,
-.Tuesday:hover,
-.Wednesday:hover {
-    color: darkblue;
-    transition: all 150ms ease;
-    font-size: 42px;
-    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .fa-sun,
 .fa-cloud-sun,
 .fa-cloud {
     width: 120px;
-    size: 40px;
+    size: 80px;
+    padding: 200;
 }
 
 .Greetings {
     display: block;
+    margin-left: 50px;
     text-shadow: 16px 7px 5px rgba(151, 117, 23, 0.5);
     color: #977517;
     font-family: sans-serif;
     font-weight: bold;
-    text-align: far left;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: bold;
-    padding: 400;
     margin-left: 22px;
-}
-
-.Greetings:hover {
-    color: darkblue;
-    transition: all 150ms ease;
 }
 
 .weather-app {
@@ -90,14 +73,21 @@ header:hover {
             rgb(219, 230, 175) 76.8%);
     display: block;
     text-align: left;
-    color: wheat;
-    font-family: monospace;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
     padding: 40px;
-    font-size: 35px;
-    font-weight: bold;
-    border-radius: 45px;
-    margin-left: 16px;
-    margin-right: 16px;
+    font-size: 20px;
+    font-weight: 25px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    border-color: lightgrey;
+}
+
+.weather-app,
+::after,
+::before {
+    box-sizing: weather-app;
+}
 }
 
 .weather-date:hover,
@@ -105,18 +95,14 @@ header:hover {
 .weather-temperature:hover,
 .weather-location:hover {
     color: darkblue;
-    font-size: 50px;
     transition: all 150ms ease;
     font-weight: bold;
 }
 
 a:any-link {
-    color: wheat;
+    color: whitesmoke;
     font-family: monospace;
-    font-size: 40px;
-    font-weight: 40px;
     padding: 40px;
-    font-weight: 40px;
 }
 
 a:any-link:hover {
@@ -124,19 +110,16 @@ a:any-link:hover {
     font-weight: bold;
     cursor: pointer;
     color: darkblue;
-    size: 45px;
 }
 
 .Today,
 .weather-main {
     display: block;
-    size: 50px;
     font-family: sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
-    padding: 400;
-    color: wheat;
-    margin-top: 15px;
+    color: white;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -161,12 +144,6 @@ form {
     margin-right: 30px;
 }
 
-.form:hover {
-    color: darkblue;
-    transition: all 150ms ease;
-    font-size: 50px;
-}
-
 .button-city-search.button-city-search {
     display: in-line;
     padding: -15px;
@@ -184,10 +161,9 @@ form {
     background-color: #bdb09c;
     cursor: pointer;
     transition: all 150ms ease;
-    font-size: 50px;
 }
 
-.footerlink, footer {
+footer {
     color: darkblue;
     font-family: sans-serif;
     font-weight: light;
