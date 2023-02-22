@@ -72,16 +72,16 @@ header {
             rgb(204, 85, 67) 43.4%,
             rgb(237, 181, 121) 60.2%,
             rgb(219, 230, 175) 76.8%);
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-color: lightgrey; 
     display: block;
     text-align: left;
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;  
-    padding: 40px;
-    font-size: 20px;
-    font-weight: 25px;
+    padding: 38px;
+    font-size: 25px;
+    font-weight: 28px;
 }
 
 .weather-app,
@@ -132,23 +132,20 @@ a:any-link:hover {
 }
 
 form {
-    padding: 8px;
     display: block;
     font-size: 50px;
     font-family: sans-serif;
     text-align: center;
-    border-color: #6d7696;
-    margin: 50px;
-    box-sizing: weather-app;
+    border-color: rgb(204, 85, 67) 43.4%;
     border-radius: 30px;
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-width: 5px;
     border-color: lightgrey;
+    margin: 0 auto; 
 }
 
 .button-city-search.button-city-search {
     display: in-line;
-    padding: -15px;
     background: rgb(204, 85, 67) 43.4% ;
     color: #faf6ef;
     border: 10px round;
@@ -157,11 +154,13 @@ form {
     font-size: 25px;
     size: 30px;
     border-radius: 30px;
+    margin: 0 auto; 
+    margin-top: 
 }
 
 .button-city-search:hover {
-    color: whitesmoke;
-    background-color: #bdb09c;
+    color: rgb(219, 230, 175) 76.8% ;
+    background-color: rgb(219, 230, 175) 76.8%; 
     cursor: pointer;
     transition: all 150ms ease;
 }
