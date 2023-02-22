@@ -13,21 +13,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js"
     integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>MyWeatherApp</title>
+    <title> MyWeatherApp </title>
     <meta charset="UTF-8" />
 </head>
 
 <body>
-        <div class="container">
-            <div class="card" id="weather-app-frame">
-                <header>
-                Weekly Weather Forecast
-                </header>
+    <div class="container">
+        <div class="card" id="weather-app-frame">
+            <header>
+            Weekly Weather Forecast
+            </header>
     <br />
     <p class="Weekly-forecast">
-    <div class="row">
-        <div class="col">
-            <span class="Tues">
+        <div class="row">
+           <div class="col">
+                <span class="Tues">
                 <strong>Tues</strong>
                 <br />
                 <i class="fa-regular fa-sun"></i>
@@ -58,50 +58,41 @@
                 <br />
                 <strong> 26°C </strong> 18°C
         </div>
-    </div>
-</div>
-        
-                </p>
-                <br />
-                <br />
-        
-                <h1>
-                    <div class="Greetings" style="float:center;" id="greetings">
-                        👋 Hello, World! 👋
-                    </div>
-                </h1>
-                <br />
-                <div class="card-body weather-app" id="weather-card">
-                    <div class="weather-date" id="current-date"><strong>Date</strong></div>
-                    <div class="weather-time" id="current-time"> Local time <strong>00:00</strong></div>
-                    <div class="weather-location" style="float:center;" id="current-location"> 📍 in <a href="#"
-                            id="#location-switch"> your current location </a></div>
-                    <div class="weather-temperature" style="float:center;" id="current-temperature"><strong>🌡️ 0°C </strong>
-                    </div>
-                    <div class="Today" id="weather-overall"><i class="fa-solid fa-cloud-sun"></i>Today´s Weather: <div
-                            class="weather-main" id="#weather-main"> (y)</div> <i class="fa-solid fa-cloud-sun"></i>
-                    </div>
-                    <br />
-                </div>
+    </p>
+    <br />
+    <h1>
+        <div class="Greetings" style="float:center;" id="greetings">
+            👋 Hello, World! 👋
+        </div>
+    </h1>
+    <br />
+        <div class="card-body weather-app" id="weather-card">
+            <div class="weather-date" id="current-date"><strong>Date</strong></div>
+            <div class="weather-time" id="current-time"> Local time <strong>00:00</strong></div>
+            <div class="weather-location" style="float:center;" id="current-location"> 📍 in <a href="#"
+            id="#location-switch"> your current location </a></div>
+            <div class="weather-temperature" style="float:center;" id="current-temperature"><strong>🌡️ 0°C </strong>
             </div>
-            <br />
-            <p>
-            <form action="Change-location" class="Change-location" id="search-form">
-                <input type="text" autofocus="on" autocomplete="off" class="form-control shadow-sm"
-                    placeholder="🔍Type your city..." id="city-input" />
-        
-                <button class="button-city-search" type="submit" id="button-city-search"> Search </button>
+            <div class="Today" id="weather-overall"><i class="fa-solid fa-cloud-sun"></i>Today`s Weather:  
+            <div class="weather-main" id="#weather-main">(y)</div> 
+            <i class="fa-solid fa-cloud-sun"></i>
         </div>
+    <br />
+    <p>
+        <form action="Change-location" class="Change-location" id="search-form">
+        <input type="text" autofocus="on" autocomplete="off" class="form-control shadow-sm"
+        placeholder="🔍Type any city..." id="city-input" />
+    <br />
+        <button class="button-city-search" type="submit" id="button-city-search"> Search </button>
         </form>
-        </p>
-        <footer> 
-        <a: href:"https://github.com/kelcarver/WeatherAppKelly">Open-Source Code</a:> by Kelly Carver
-        </footer>
-        </div>
-        </div>
-        </div>
-        <script src="src/index.js">
-        </script>
-        </body>
-        
-        </html>
+    </p>
+</div>       
+</div>
+</div>
+<footer> 
+<a href="https://github.com/kelcarver/WeatherAppKelly">Open-Source Code</a> by Kelly Carver
+</footer>
+<script src="src/index.js">
+</script>
+</body>     
+</html>

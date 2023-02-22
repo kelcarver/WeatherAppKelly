@@ -1,20 +1,20 @@
 body {
-    background-color: whitesmoke;
+    color: rgb(109, 118, 150) 7.1%;
 }
 
 .card {
-    margin: 30px;
-    box-sizing: weather-app;
-    border-radius: 30px;
+    margin: 120px;
+    box-sizing: weather-app-frame;
+    border-radius: 35px;
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-width: 5px;
-    border-color: lightgrey;
+    border-color:rgb(89, 72, 79) 14.7%;
 }
 
 .card,
 ::after,
 ::before {
-    box-sizing: weather-app;
+    box-sizing: weather-app-frame;
 }
 
 header {
@@ -53,14 +53,15 @@ header {
 
 .Greetings {
     display: block;
-    margin-left: 50px;
     text-shadow: 16px 7px 5px rgba(151, 117, 23, 0.5);
     color: #977517;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .weather-app {
@@ -71,22 +72,22 @@ header {
             rgb(204, 85, 67) 43.4%,
             rgb(237, 181, 121) 60.2%,
             rgb(219, 230, 175) 76.8%);
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    border-color: lightgrey; 
     display: block;
     text-align: left;
     color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;  
     padding: 40px;
     font-size: 20px;
     font-weight: 25px;
-    border-radius: 30px;
-    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
-    border-color: lightgrey;
 }
 
 .weather-app,
 ::after,
 ::before {
-    box-sizing: weather-app;
+    box-sizing: weather-app-frame;
 }
 
 .weather-date:hover,
@@ -99,8 +100,9 @@ header {
 }
 
 a:any-link {
-    color:#977517;
-    font-family: monospace;
+    color:#f1a522;
+    font-family: sans-serif;
+    font-weight: bold; 
     padding: 40px;
 }
 
@@ -115,7 +117,7 @@ a:any-link:hover {
 .weather-main {
     display: block;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     margin-top: 5px;
@@ -130,29 +132,31 @@ a:any-link:hover {
 }
 
 form {
-    padding: 2px;
+    padding: 8px;
     display: block;
-    font-size: 33px;
-    font-family: monospace;
-    font-weight: 40px;
-    border-radius: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
     text-align: center;
     border-color: #6d7696;
-    border-width: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 50px;
+    box-sizing: weather-app;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    border-width: 5px;
+    border-color: lightgrey;
 }
 
 .button-city-search.button-city-search {
     display: in-line;
     padding: -15px;
-    background: #f1a522;
+    background: rgb(204, 85, 67) 43.4% ;
     color: #faf6ef;
-    border: 10px round #6d7696;
-    font-family: monospace;
-    font-size: 20px;
-    size: 25px;
-    border-radius: 20px;
+    border: 10px round;
+    border-color: rgb(89, 72, 79) 14.7%;
+    font-family: sans-serif;
+    font-size: 25px;
+    size: 30px;
+    border-radius: 30px;
 }
 
 .button-city-search:hover {
@@ -163,8 +167,10 @@ form {
 }
 
 footer {
-    color: #977517;
+    color: #f1a522;
     font-family: sans-serif;
-    font-weight: light;
+    font-weight: bold;
+    font-size: 18px; 
     text-align: center;
+    margin: 0 auto; 
 }
